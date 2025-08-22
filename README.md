@@ -24,6 +24,7 @@ A principal estrutura de dados é um array que utiliza uma `union` para represen
     * `first`: Índice do primeiro registro da lista lógica.
     * `last`: Índice do último registro da lista lógica.
     * `free`: Índice do primeiro espaço livre na "lista de disponíveis".
+
 * **Índices > 0 (Células da Lista):** Os demais elementos do array armazenam os registros de dados e os ponteiros que formam a lista duplamente encadeada.
     * `reg`: O dado em si (neste caso, uma `chave` inteira).
     * `next`: Índice do próximo registro na lista.
@@ -50,6 +51,7 @@ Após a execução, o programa solicitará o tamanho da lista e exibirá o menu 
 
 ## 💻 Exemplo de Uso
 
+```console
 Tamanho da lista: 5
 
 Menu:
