@@ -61,6 +61,8 @@ Bash
 Após a execução, o programa solicitará o tamanho da lista e exibirá o menu de operações.
 
 💻 Exemplo de Uso
+Plaintext
+
 Tamanho da lista: 5
 
 Menu:
